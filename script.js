@@ -10,7 +10,7 @@ submit.addEventListener("click",()=>{
 valor.forEach(num => {
     num.addEventListener('click', (event) => {
         number.innerHTML = num.innerHTML;
-        console.log("valor", number.innerHTML);
+        // console.log("valor", number.innerHTML);
     });
 });
 submit2.addEventListener("click",()=>{
